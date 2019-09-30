@@ -39,7 +39,7 @@ function checkGuess() {
 
 }
 
-guessSubmit/addEventListener('click, checkGuess');
+guessSubmit.addEventListener('click, checkGuess');
 
 function setGameOver() {
     guessField.disabled = true;
